@@ -1,6 +1,7 @@
 :root {
-    --color--fondo: #000000; 
-    --color--fondo--ppal: #1A1A1D;
-    --color--letra--ppal: white;
-    --color--letra--footer: #3C3D37;
+    --color--fondo: #0d0d0d; 
+    --color--fondo--ppal: #0d0d0d;
+    --color--letra--ppal: #ececec;
+    --color--letra--footer: #6d6d6d;
+    --color--borde: #808080; 
 }

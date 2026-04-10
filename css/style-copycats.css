@@ -1,0 +1,159 @@
+*{
+
+    box-sizing: border-box;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+
+
+body {
+
+    background-color: var(--color--fondo);
+
+    margin: 0;
+
+    overflow: hidden; 
+
+}
+
+.encabezado {
+
+    border: solid 0.1vh var(--color--borde);
+
+    margin: 4vh;
+
+    background-color: var(--color--fondo--ppal);
+
+    color: var(--color--letra--ppal);
+
+    height: 93vh;
+
+}
+
+footer {
+
+    color: #3C3D37;
+
+}
+
+main > section > div > nav > ul > li > div > i {
+
+    font-size: 10px;
+
+}
+
+.navegacion {
+
+    top: 0;
+
+    left: 0;
+
+    width: 230px;
+
+    height: 100vh;
+
+    padding: 28px 24px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    overflow: hidden;
+
+}
+
+.header {
+
+    position: absolute;
+
+    top: 50px;
+
+    left: 73px;
+
+}
+
+
+
+.name {
+
+    font-size: 64px;
+
+    font-weight: 100;
+
+    letter-spacing: -1px;
+
+    line-height: 1;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.subtitle {
+
+    font-size: 14px;
+
+    font-weight: 400;
+
+    letter-spacing: 0.5px;
+
+}
+
+nav {
+
+    position: absolute;
+
+    top: 35%;
+
+    left: 73px;
+
+    transform: translateY(-50%);
+
+}
+
+
+
+ nav ul {
+
+    list-style: none;
+
+}
+
+
+
+nav ul li {
+
+    margin-bottom: 15px;
+
+}
+
+
+
+nav ul li a {
+
+    text-decoration: none;
+
+    color: white;
+
+    font-size: 14px;
+
+    font-weight: 800;
+
+    text-transform: none;
+
+    transition: opacity 0.2s;
+
+}
+
+
+
+nav ul li a:hover {
+
+    opacity: 0.5;
+
+}

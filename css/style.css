@@ -6,6 +6,8 @@
 
 body {
     background-color: var(--color--fondo);
+    margin: 0;
+    overflow: hidden; 
 }
 .encabezado {
     border: solid 0.1vh var(--color--borde);
@@ -17,6 +19,226 @@ body {
 footer {
     color: #3C3D37;
 }
-main > section > div > nav > div > i {
-    font-size: 1.2vh;
+main > section > div > nav > ul > li > div > i {
+    font-size: 10px;
+}
+.navegacion {
+    top: 0;
+    left: 0;
+    width: 230px;
+    height: 100vh;
+    padding: 28px 24px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.header {
+    position: absolute;
+    top: 50px;
+    left: 73px;
+}
+
+.name {
+    font-size: 64px;
+    font-weight: 100;
+    letter-spacing: -1px;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+nav {
+    position: absolute;
+    top: 35%;
+    left: 73px;
+    transform: translateY(-50%);
+}
+
+ nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    margin-bottom: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: none;
+    transition: opacity 0.2s;
+}
+
+nav ul li a:hover {
+    opacity: 0.5;
+}
+.bio-container {
+    position: absolute;
+    bottom: 60px;
+    right: 60px;
+    text-align: left;
+    max-width: 220px;
+}
+
+.bio-text {
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+}
+
+.text-panel {
+  position: fixed; 
+  right: 40px;
+  top: 25%;
+  text-align: right;         
+  width: 42%;       
+  height: 100vh;      
+  overflow-y: auto;  
+  -ms-overflow-style: none;     
+  padding: 20px;
+}
+.text-panel::-webkit-scrollbar {
+  display: none;
+}
+
+.project-row {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.project-row:last-child {
+  border-bottom: none;
+}
+
+.project-row h2 {
+  font-size: 68px;
+  font-weight: 100;
+  line-height: 1;
+  margin-bottom: 2px;
+  color: var(--color--letra--ppal);
+}
+
+.project-row p {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--color--letra--ppal);
+  margin: 0;
+}
+
+.project-row a {
+  text-decoration: none;
+  color: var(--color--letra--ppal);
+  transition: opacity 0.3s ease;
+}
+
+.project-row a:hover {
+  opacity: 0.3;
+}
+.contact {
+  position: fixed;
+  bottom: 50px;
+  right: 70px;
+  text-decoration: none;
+  color: var(--color--letra--ppal);
+  font-size: 18px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+/* Estilos para info.html */
+.mid-left {
+  position: fixed;
+  bottom: 40%;
+  left: 55%;
+}
+
+.mid-left ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mid-left li {
+  margin-bottom: 10px;
+}
+
+.mid-left a {
+  text-decoration: none;
+  color: var(--color--letra--ppal);
+  font-size: 14px;
+  transition: opacity 0.3s ease;
+}
+
+.mid-left a:hover {
+  opacity: 0.7;
+}
+
+.top-right {
+  position: fixed;
+  top: 60px;
+  right: 60px;
+  text-align: left;
+}
+
+.top-right ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.top-right li {
+  margin-bottom: 10px;
+}
+
+.top-right a {
+  text-decoration: none;
+  color: var(--color--letra--ppal);
+  font-size: 14px;
+  transition: opacity 0.3s ease;
+}
+
+.top-right a:hover {
+  opacity: 0.7;
+}
+
+/* Estilo para la sección de awards/logros */
+section > div:nth-child(3) {
+  position: fixed;
+  bottom: 40px;
+  right: 48px;
+  text-align: left;
+}
+
+section > div:nth-child(3) ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+section > div:nth-child(3) li {
+  margin-bottom: 15px;
+}
+
+section > div:nth-child(3) span {
+  display: block;
+  color: var(--color--letra--ppal);
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+section > div:nth-child(3) span:first-child {
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+section > div:nth-child(3) span:last-child {
+  font-weight: 400;
+  opacity: 0.8;
 }
